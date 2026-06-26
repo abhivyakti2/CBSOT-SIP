@@ -23,12 +23,13 @@ Focused on **Churn Prediction**, **Customer Segmentation**, and **Upsell Propens
 #### 3. Churn Prediction
 
 * Implemented a **Random Forest Classifier**.
-* Addressed class imbalance through hyperparameter tuning.
+* Addressed class imbalance.
 * Achieved:
 
   * **Recall:** 74% (for predicting most likely churners)
   * **Accuracy:** 78%
   * **ROC-AUC:** 0.857
+  through hyperparameter tuning at 300 trees and depthof 10 features.
 
 #### 4. Customer Segmentation
 
@@ -62,6 +63,7 @@ Focused on **Churn Prediction**, **Customer Segmentation**, and **Upsell Propens
 
 ### Budgeted Loyal Cusomer Segment
 
-* **Online Security** — Strong predictive performance (**AUC ≈ 0.93**)
-* **Tech Support** — Stable propensity estimates (**AUC ≈ 0.91**)
+* **Device Protection** — Strong predictive performance (**AUC ≈ 0.88**)
 * **Online Backup** — High-ranking opportunity (**AUC ≈ 0.89**)
+* **Tech Support** — Stable propensity estimates (**AUC ≈ 0.91**)
+
